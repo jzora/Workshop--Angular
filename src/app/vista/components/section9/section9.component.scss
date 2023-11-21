@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap');
+
+$inter-semibold: 'Inter';
+$linkColor: #1C1C1C;
+$textColor: #585757;
+$botonColor: #24AFB5;
+
+#section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    #lineHeaders {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 20%;
+        margin-bottom: 10%;
+
+        .lines {
+
+            margin-bottom: 5%;
+
+            div {
+                display: grid;
+                grid-template-columns: 0.1fr 0.9fr;
+                font-family: $inter-semibold;
+                font-size: 24px;
+
+                img {
+                    width: 70%;
+                    padding-top: 42%;
+                }
+            }
+
+            p {
+                font-family: $inter-semibold;
+                font-size: 15px;
+                margin-top: -16px;
+                padding-right: 7%;
+            }
+        }
+
+
+    }
+}
+
+#section3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    #percentages {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .pointing {
+            display: grid;
+            grid-template-columns: .3fr 1fr;
+
+            img {
+                width: 70%;
+                padding-top: 53%;
+            }
+
+            p {
+                font-family: $inter-semibold;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 10px;
+            }
+        }
+
+        .description {
+            margin-top: 1%;
+            margin-left: 23%;
+            color: $textColor;
+            font-size: 15px;
+            font-family: $inter-semibold;
+            font-weight: 400;
+            line-height: 22px;
+            word-wrap: break-word
+        }
+    }
+
+    #videogames {
+        p {
+            margin-top: 13%;
+            color: $textColor;
+            font-size: 15px;
+            font-family: $inter-semibold;
+            font-weight: 500;
+            line-height: 22px;
+            word-wrap: break-word
+        }
+    }
+}

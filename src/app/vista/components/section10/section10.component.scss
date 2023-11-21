@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap');
+
+$inter-semibold: 'Inter';
+$linkColor: #1C1C1C;
+$textColor: #585757;
+$botonColor: #24AFB5;
+
+
+
+#section4 {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    h1 {
+        font-family: $inter-semibold;
+        font-size: 48px;
+    }
+
+    p {
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-family: $inter-semibold;
+        font-size: 20px;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        h3 {
+            font-family: $inter-semibold;
+            margin-top: 3%;
+        }
+    }
+
+    img {
+        margin-top: 5%;
+        max-width: 90%;
+        height: auto;
+    }
+
+}
+
+#section5 {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    #changeableinfo {
+        display: grid;
+        grid-template-columns: .1fr 1fr .1fr;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 2%;
+        font-family: $inter-semibold;
+        color: $textColor;
+
+        font-size: 20px;
+
+        img {
+            margin-top: 55%;
+        }
+    }
+
+    img {
+        margin-top: 4%;
+    }
+
+    h1 {
+        font-family: $inter-semibold;
+        font-size: 20px;
+        margin-top: 2%;
+    }
+
+    h2 {
+        font-family: $inter-semibold;
+        font-size: 15px;
+        color: $textColor;
+        margin-top: .5%;
+    }
+    h3 {
+        font-family: $inter-semibold;
+        font-size: 15px;
+        color:$botonColor;
+        margin-top: 3%;
+    }
+}

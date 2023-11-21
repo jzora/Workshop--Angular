@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200&display=swap');
+
+$fuente: 'Inter';
+$colorlist: #1c1c1c;
+$colortext: #585757;
+$colorbox: #24AFB5;
+$colorfecha: #969696;
+$colorfooter: #F7F7F7;
+
+
+#septCont {
+    border-top: 1px solid $colortext;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: justify;
+    //a
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    //e
+    border-bottom: 1px solid $colortext;
+
+    #contentCont3 {
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    h1 {
+        color: $colorfecha;
+        font-size: 11px;
+        font-family: $fuente;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 41px;
+        letter-spacing: 1px;
+        word-wrap: break-word
+    }
+
+    h2 {
+        color: $colorlist;
+        font-size: 24px;
+        font-family: $fuente;
+        font-weight: 600;
+        margin-bottom: 10px;
+        line-height: 32px;
+        word-wrap: break-word
+    }
+
+    p {
+        color: $colortext;
+        font-size: 15px;
+        font-family: $fuente;
+        font-weight: 400;
+        line-height: 22px;
+        word-wrap: break-word
+    }
+
+    #bottomText1 {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 100px;
+
+        p {
+            line-height: 0px;
+            margin-right: 10px;
+        }
+
+        img {
+            width: 22px;
+            height: 22px;
+            margin-right: 10px;
+        }
+    }
+}
+
+#sectionCont8 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    //a
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    //e
+    justify-content: center;
+    border-bottom: 1px solid grey;
+
+    #textSection {
+        margin-top: 150px;
+        color: $colorlist;
+        font-size: 48px;
+        font-family: $fuente;
+        font-weight: 700;
+        line-height: 60px;
+        word-wrap: break-word;
+    }
+
+    #parSection {
+        color: #585757;
+        font-size: 20px;
+        font-family: $fuente;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    #formSection {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #formSection input[type="text"] {
+        color: #585757;
+        opacity: 0.40;
+        outline: none;
+        width: 400px;
+        height: 40px;
+        font-size: 20px;
+        font-family: $fuente;
+        border: 1px solid #585757;
+        border-radius: 5px;
+        font-weight: 400;
+        line-height: 30px;
+        word-wrap: break-word
+    }
+
+    #formSection input[type="submit"] {
+        background-color: $colorbox;
+        width: 150px;
+        height: 43px;
+        color: white;
+        font-size: 20px;
+        border: 1px solid $colorbox;
+        font-family: $fuente;
+        border-radius: 5px;
+        margin-left: 13px;
+        font-weight: 600;
+        line-height: 26px;
+        word-wrap: break-word
+    }
+
+    #smallText {
+        color: #969696;
+        font-size: 13px;
+        font-family: $fuente;
+        margin-top: 15px;
+        margin-bottom: 100px;
+        font-weight: 400;
+        line-height: 18px;
+        word-wrap: break-word
+    }
+}
